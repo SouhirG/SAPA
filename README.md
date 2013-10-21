@@ -4,21 +4,9 @@ Segmentor and Part-of-speech tagger for Arabic
 
 Overview
 ========
-This tool preprocess arabic texts : predict part-of-speech tags and splits off words to separe the basic form and proclitics. Details of this work are presented in:
+This tool preprocess arabic texts : predict part-of-speech tags and splits off words to separe the basic form and proclitics. Details of this work are presented in: 
 
-@InProceedings{GAHBICHEBRAHAM12.855,
-  	author = {Souhir Gahbiche-Braham and H{\'e}l{\`e}ne Maynard and Thomas Lavergne and Fran{\c c}ois Yvon},
-  	title = {Joint Segmentation and POS Tagging for Arabic Using a CRF-based Classifier},
-  	booktitle = {Proceedings of the Eight International Conference on Language Resources and Evaluation (LREC'12)},
-  	year = {2012},
-  	month = {may},
-  	date = {23-25},
-  	address = {Istanbul, Turkey},
-  	editor = {Nicoletta Calzolari (Conference Chair) and Khalid Choukri and Thierry Declerck and Mehmet Ugur Dogan and Bente Maegaard and Joseph Mariani and Jan Odijk and Stelios Piperidis},
-  	publisher = {European Language Resources Association (ELRA)},
-  	isbn = {978-2-9517408-7-7},
-  	language = {english}
- }
+Souhir Gahbiche-Braham and Hélène Maynard and Thomas Lavergne and François Yvon, Joint Segmentation and POS Tagging for Arabic Using a CRF-based Classifier, In Proceedings of the Eight International Conference on Language Resources and Evaluation (LREC'12), Istanbul, Turkey. 2012 [www.lrec-conf.org/proceedings/lrec2012/pdf/855_Paper.pdf].
 
 
 For any information, bug reports or comments, contact:
