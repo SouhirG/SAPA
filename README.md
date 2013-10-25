@@ -20,3 +20,21 @@ To use SAPA:
 
 2- Place the ArabicSplit directory in the Wapiti directory.
 
+3- Uncompress the modelPOS+SEG-final-0.1.crf.zip file.
+
+
+Run SAPA
+========
+1- cd ~/wapiti/SAPA
+
+2- ./segment arabic_filename
+
+Resulting files
+===============
+arabic_filename.bw              is the transliterated text using Buckwalter scheme.
+
+arabic_filename.wap             contains the predictions for each word in the text
+
+arabic_filename.norm.pos        contains the part-of-speech tags for each word in the resulting file.result
+
+arabic_filename.result          is the resulting preprocessed file
