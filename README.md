@@ -29,6 +29,9 @@ Run SAPA
 
 2- ./segment arabic_filename
 
+If SAPA cannot run correctly or the loading of model does not succeeds, please unzip the model modelPOS+SEG.light.crf.zip and replace "modelPOS+SEG-final-0.1.crf" by "modelPOS+SEG.light.crf" in the file "segment.sh"
+ 
+
 Resulting files
 ===============
 arabic_filename.bw              is the transliterated text using Buckwalter scheme.
