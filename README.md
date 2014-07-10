@@ -8,6 +8,15 @@ This tool preprocess arabic texts : predict part-of-speech tags and splits off w
 
 Souhir Gahbiche-Braham and Hélène Maynard and Thomas Lavergne and François Yvon, Joint Segmentation and POS Tagging for Arabic Using a CRF-based Classifier, In Proceedings of the Eight International Conference on Language Resources and Evaluation (LREC'12), Istanbul, Turkey. 2012 [www.lrec-conf.org/proceedings/lrec2012/pdf/855_Paper.pdf].
 
+If you use SAPA for research purpose, please use the following citation:
+
+    @inproceedings{gahbiche2012joint,
+    	title={Joint Segmentation and POS Tagging for Arabic Using a CRF-based Classifier},
+    	author={Gahbiche-Braham, Souhir and Bonneau-Maynard, H{\'e}lene and Lavergne, Thomas and Yvon, Fran{\c{c}}ois},
+    	booktitle={Proc. of LREC’12},
+    	pages={2107--2113},
+    	year={2012}
+    }
 
 For any information, bug reports or comments, contact:
 	souhir.gahbiche[at]limsi.fr or souhir.gahbiche[at]gmail.com
