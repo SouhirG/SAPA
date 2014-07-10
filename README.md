@@ -11,9 +11,14 @@ Souhir Gahbiche-Braham and Hélène Maynard and Thomas Lavergne and François Yv
 If you use SAPA for research purpose, please use the following citation:
 
     @inproceedings{gahbiche2012joint,
-    	title={Joint Segmentation and POS Tagging for Arabic Using a CRF-based Classifier},
+       	title={Joint Segmentation and POS Tagging for Arabic Using a CRF-based Classifier},
     	author={Gahbiche-Braham, Souhir and Bonneau-Maynard, H{\'e}lene and Lavergne, Thomas and Yvon, Fran{\c{c}}ois},
     	booktitle={Proc. of LREC’12},
+    	address = {Istanbul, Turkey},
+    	editor = {Nicoletta Calzolari (Conference Chair) and Khalid Choukri and Thierry Declerck and Mehmet Ugur Dogan and Bente Maegaard and Joseph Mariani and Jan Odijk and Stelios Piperidis},
+    	publisher = {European Language Resources Association (ELRA)},
+    	isbn = {978-2-9517408-7-7},
+    	language = {english}
     	pages={2107--2113},
     	year={2012}
     }
