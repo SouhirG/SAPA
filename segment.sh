@@ -60,10 +60,10 @@ $myscript/separatepunc.pl $filetosplit.bw > $filetosplit.txt
 #étiqueter chaque mot avec un label de la forme pos+pr1+pr2+pr3 en appelant wapiti
 cd ..
 repp=`pwd`
-$repp/wapiti label -m $myscript/modelPOS+SEG-final-0.1.crf $filetosplit.txt -p -s > $filetosplit.wap
+cd $rep_courant
+$repp/wapiti label -m $myscript/modelPOS+SEG.light.crf $filetosplit.txt -p -s > $filetosplit.wap
 
 echo "Normalization..."
-cd $rep_courant
 #normalize ALEF, YAA, HAMZA, TAMARBUTA
 $myscript/normalize.pl $filetosplit.wap | grep -v "^#" > $filetosplit.norm
 
