@@ -55,3 +55,6 @@ arabic_filename.wap             contains the predictions for each word in the te
 arabic_filename.norm.pos        contains the part-of-speech tags for each word in the resulting file.result
 
 arabic_filename.result          is the resulting preprocessed file
+
+[![Analytics](https://ga-beacon.appspot.com/UA-78344280-1/SouhirG/SAPA)](https://github.com/SouhirG/SAPA)
+
