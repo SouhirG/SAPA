@@ -24,8 +24,8 @@
 #     INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN		# 
 #     CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)		# 	
 #     ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE	# 
-#     POSSIBILITY OF SUCH DAMAGE.							# #########################################################################################
-
+#     POSSIBILITY OF SUCH DAMAGE.							# 
+#########################################################################################
 #
 #########################################################################################
 # Description : Translitterate / Convert UTF8 arabic encoding to Buckwalter encoding
@@ -84,7 +84,7 @@ while ($line = <UTF>){
 	$line =~ s/\x{0648}/w/g;    ## WAW
 	$line =~ s/\x{0649}/Y/g;    ## ALEF MAKSURA
 	$line =~ s/\x{064A}/y/g;    ## YA
-	$line =~ s/x{00A4}/ /g; ## ¤
+	$line =~ s/\x{00A4}/ /g; ## ¤
 
     ## Ponctuations
 	$line =~ s/(\s+)(\,)(\d)/$1SEPPUNCTMARKCOMMA$3/g;
